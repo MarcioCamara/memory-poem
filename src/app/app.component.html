@@ -1,0 +1,9 @@
+<div class="container">
+  <div *ngIf="doesCurrentIpExist && !isLoading">
+    já existe lá
+  </div>
+
+  <div *ngIf="!doesCurrentIpExist && !isLoading">
+    não existe lá
+  </div>
+</div>
